@@ -1,0 +1,13 @@
+server:
+  host: 192.168.1.2
+  port: 4100
+  tomcat:
+    basedir: G:/LiberaryBackend/WEB-INF
+spring:
+  datasource:
+    name: library
+    url: jdbc:mysql://localhost:3306/library
+    username: root
+    password: 123456
+    drive-class-name: com.mysql.jdbc.Driver
+
